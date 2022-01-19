@@ -34,10 +34,12 @@ ul {
     /* justify-content: end; */
     /* align-items is always on the cross axis */
     /* align-items: center; */
+
+    /* flex-wrap: wrap; */
 }
 
 .item {
-    width: 100px;
+    flex-basis: 100px;
     height: 100px;
     background: #254de4;
     color: #fff;
@@ -49,8 +51,14 @@ ul {
     align-items: center;
 }
 
-.item:nth-of-type(1) {}
+.item:nth-of-type(1) {
+    flex-grow: 1;
+}
 
-.item:nth-of-type(2) {}
+.item:nth-of-type(2) {
+    flex-grow: 1;
+}
 
-.item:nth-of-type(3) {}
+.item:nth-of-type(3) {
+    flex-grow: 1;
+}
