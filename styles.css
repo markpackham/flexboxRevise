@@ -113,3 +113,17 @@ header .container {
 .box i {
     margin-right: 10px;
 }
+
+@media(max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container {
+        /* changing from flex to block makes the boxes easier to stack or you could do like above with flex-direction: column */
+        display: block;
+        text-align: center;
+    }
+}
