@@ -28,14 +28,12 @@ ul {
 }
 
 .flex-container {
-    height: 500px;
     display: flex;
-    flex-direction: column;
     background: #f4f4f4;
     /* justify-content is for rows & always on main axis, use align-items for columns */
-    justify-content: start;
+    /* justify-content: end; */
     /* align-items is always on the cross axis */
-    align-items: center;
+    /* align-items: center; */
 }
 
 .item {
@@ -44,6 +42,11 @@ ul {
     background: #254de4;
     color: #fff;
     margin: 10px;
+
+    /* one of the easiest ways to center a div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item:nth-of-type(1) {}
