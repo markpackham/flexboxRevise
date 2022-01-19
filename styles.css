@@ -20,9 +20,36 @@ img {
 
 h1,
 h2 {
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.875rem;
+}
+
+.navbar {
+    background: #3474e6;
+    color: #fff;
+    height: 60px;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: bold;
 }
